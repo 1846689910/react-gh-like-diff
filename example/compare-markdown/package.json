@@ -2,12 +2,19 @@
   "name": "react-gh-like-diff-test",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "^16",
+    "npm": "^8"
+  },
   "dependencies": {
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
-    "react-gh-like-diff": "2.0.0",
-    "react-scripts": "3.4.0",
-    "unfetch": "4.1.0"
+    "assert": "^2.0.0",
+    "difflib": "^0.2.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-gh-like-diff": "^2.0.0",
+    "react-scripts": "^5.0.0",
+    "unfetch": "4.1.0",
+    "util": "^0.12.4"
   },
   "scripts": {
     "start": "react-scripts start",
